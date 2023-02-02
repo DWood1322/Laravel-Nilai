@@ -20,5 +20,5 @@ Route::get('/', function () {
 Route::get('/nilaisiswa', function () {
     $nama = "Heejin";
     $nilai =40;
-    return view('nilaisiswa', compact("nama","nilai"));
+    return view('datanilai.nilaisiswa', compact("nama","nilai"));
 });
